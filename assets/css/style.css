@@ -160,22 +160,26 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* add float left */
 .search-engine-optimization img {
     max-height: 200px;
+    float:left;
 }
-
+/* add float right */
 .online-reputation-management img {
     max-height: 200px;
+    float:right;
 }
-
+/* add float left */
 .social-media-marketing img {
     max-height: 200px;
+    float:left;
 }
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+
 }
 
 .online-reputation-management h2 {
