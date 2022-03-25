@@ -34,6 +34,10 @@ body {
 
 .header div ul {
     list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+    display: inline-block;
+    margin-left: 25px;
 }
 
 .header div ul li {
@@ -59,16 +63,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* delete extra float classes */
 .content {
     width: 75%;
     display: inline-block;
@@ -84,6 +79,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 
 .benefit-lead {
@@ -161,19 +157,25 @@ p {
     color: #ffffff;
 }
 /* add float left */
+/* add padding */
 .search-engine-optimization img {
     max-height: 200px;
     float:left;
+    padding: 10px
 }
 /* add float right */
+/* add padding */
 .online-reputation-management img {
     max-height: 200px;
     float:right;
+    padding: 10px
 }
 /* add float left */
+/* add padding */
 .social-media-marketing img {
     max-height: 200px;
     float:left;
+    padding: 10px
 }
 
 .search-engine-optimization h2 {
